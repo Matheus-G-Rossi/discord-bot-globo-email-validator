@@ -35,7 +35,7 @@ client.on("messageCreate", (message)=>{
 
 
 client.on("ready", ()=>{
-    client.user.setActivity("GloboPlay", { type: 'WATCHING' });
+    client.user.setActivity('GloboPlay', { type: 3 });
     console.log("Bot Online !");
 })
 
